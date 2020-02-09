@@ -4,6 +4,7 @@ module.exports = {
   */
   head: {
     title: 'nuxt-beginner-guide-app',
+    titleTemplate: '%s | Nuxt.js tag items viewer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
