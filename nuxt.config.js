@@ -20,7 +20,7 @@ module.exports = {
   loading: { color: '#3B8070' },
   router: {
     middleware: [
-      'auth'
+      // 'auth'
     ]
   },
   modules: [
@@ -29,7 +29,8 @@ module.exports = {
   axios: {
   },
   plugins: [
-    '~/plugins/axios.js'
+    '~/plugins/axios.js',
+    // '~/plugins/logger'
   ],
   env: {
     QIITA_TOKEN: process.env.QIITA_TOKEN
